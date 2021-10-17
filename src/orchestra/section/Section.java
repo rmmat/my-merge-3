@@ -7,7 +7,7 @@ public abstract class Section {
     private String name;
     private List<String> instruments;
 
-    private Section(String name) {
+    public Section(String name) {
         this.name = name;
         this.instruments = new ArrayList<>();
     }
